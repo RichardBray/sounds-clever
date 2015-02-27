@@ -1,0 +1,18 @@
+---
+layout: default
+title: Homepage
+---
+<!-- Content
+    ================================================== -->
+	<div class="container" role="main">
+
+		<div style="margin-top:1em; text-align: center;">
+			{% for post in site.posts %}
+			<section class="span5">
+				<a href="{{ post.url }}">
+					<div>{{ post.title }}</div> 
+				</a>
+			</section>
+			{% endfor %}
+		</div>
+	</div>
