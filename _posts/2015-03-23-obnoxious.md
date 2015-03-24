@@ -1,10 +1,11 @@
 ---
 layout: post_page
 title: Obnoxious
+definition: Extremely unpleasant
 ---
 
 
-#### Extremely unpleasant
+#### 
 
 *disgusting, abhorrent, dreadful*
 
