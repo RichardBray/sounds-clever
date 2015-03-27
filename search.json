@@ -5,7 +5,10 @@
     {
       "title"    : "{{ post.title }}",
       "href"     : "{{ post.url }}",
-      "definition" : "{{ post.definition }}"
+      "definition" : "{{ post.definition }}",
+      "synonyms" : "{{ post.synonyms }}",
+      "example1" : "{{ post.example1 }}",
+      "example2" : "{{ post.example2 }}"
     }
     {% unless forloop.last %},{% endunless %}
     {% endfor %}

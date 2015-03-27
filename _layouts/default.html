@@ -40,9 +40,12 @@
 	                var postHREF = posts[randomIndex].href;
 	                var postTitle = posts[randomIndex].title;
 	                var postDefinition = posts[randomIndex].definition;
+	                var postSynonyms = posts[randomIndex].synonyms;
+	                var postExample1 = posts[randomIndex].example1;
+	                var postExample2 = posts[randomIndex].example2;
 
 	                if (counter == (numberOfPosts - 1)) {
-	                    divRandomPosts.append('<h2>' + postTitle + '</h2>' + postDefinition);
+	                    divRandomPosts.append('<h2>' + postTitle + '</h2>' + '<h4>' + postDefinition + '</h4>' + '<p> <em>' + postSynonyms + '</em> </p>' + '<ul> <li>' + postExample1 + '</li><li>' + postExample2 + '</li></ul>');
 	                }
 	                else {
 	                    divRandomPosts.append('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
