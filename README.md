@@ -1,9 +1,15 @@
 # sounds-clever
 another little project
 
-https://sounds-clever-richardbray.c9.io/
+JEKYLL IN CLOUD9
+================
+
+jekyll serve --host $IP --port $PORT --baseurl ''
 
 
+
+WORDS
+=====
 argumentum ad hominem
 accoutrement
 parlance
@@ -71,18 +77,11 @@ Altruism or selflessness is the principle or practice of concern for the welfare
 - allegory
 a story, poem, or picture which can be interpreted to reveal a hidden meaning, typically a moral or political one.
 
-afarism 
- nominal 
-reprehensible 
-licentious
-Vindicate
 
-Doxology 
-Nepotism
-Lackadaisical
-Fallacious
-Fortuitous
-Prognosticate
-Obnoxious
-Litigious
-credence
+
+CREDITS
+=======
+
+http://www.yourdictionary.com/
+http://wordsinasentence.com/
+http://www.thesaurus.com/
