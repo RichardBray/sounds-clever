@@ -68,16 +68,6 @@ well known, respected, and admired for past achievements
 - pejorative
 a word or phrase that has negative connotations or that is intended to disparage or belittle 
 
-- liberality
-willing to respect or accept behaviour or opinions different from one's own; open to new ideas.
-
-- altruism, altruistic
-Altruism or selflessness is the principle or practice of concern for the welfare of others.
-
-- allegory
-a story, poem, or picture which can be interpreted to reveal a hidden meaning, typically a moral or political one.
-
-
 
 CREDITS
 =======
