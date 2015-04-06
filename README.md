@@ -26,7 +26,6 @@ subterfuge
 Inebriated
 coitus
 charcuterie
-copacetic
 
 
 CREDITS
