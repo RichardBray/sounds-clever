@@ -27,28 +27,6 @@ Inebriated
 coitus
 charcuterie
 copacetic
-oligopoly
-gentrification
-myopic
-recapitulate
-preponderance
-pugilist
-conciliatory
-totalitarian
-autodidactic
-inoculate
-unifromitarialism
-ephemeral
-hubris
-antiquity 
-epicurean
-diorama
-disingenuous
-diatribe
-precocious
-Jurisprudence 
-erudite
-palindrome
 
 
 CREDITS
@@ -57,3 +35,6 @@ CREDITS
 http://www.yourdictionary.com/
 http://wordsinasentence.com/
 http://www.thesaurus.com/
+http://www.wordhippo.com/
+http://www.merriam-webster.com/
+http://womanontheedgeofreality.com/
