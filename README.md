@@ -10,6 +10,7 @@ jekyll serve --host $IP --port $PORT --baseurl ''
 
 WORDS
 =====
+- burgeon
 - argumentum ad hominem
 - hegemony
 - deluge
