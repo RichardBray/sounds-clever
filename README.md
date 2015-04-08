@@ -10,22 +10,25 @@ jekyll serve --host $IP --port $PORT --baseurl ''
 
 WORDS
 =====
-argumentum ad hominem
-accoutrement
-parlance
-percepelous
-exsorbant
-assanine
-hanus
-tumultuous
-congruent
-stoicism 
-tumultuous
-atrophy
-subterfuge
-Inebriated
-coitus
-charcuterie
+- argumentum ad hominem
+- hegemony
+- deluge
+- Enigmatic
+- accoutrement
+- parlance
+- percepelous
+- exsorbant
+- assanine
+- hanus
+- tumultuous
+- congruent
+- stoicism 
+- tumultuous
+- atrophy
+- subterfuge
+- Inebriated
+- coitus
+- charcuterie
 
 
 CREDITS
