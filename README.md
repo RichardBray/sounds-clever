@@ -7,29 +7,22 @@ JEKYLL IN CLOUD9
 jekyll serve --host $IP --port $PORT --baseurl ''
 
 
+https://sounds-clever-richardbray.c9.io/
 
 WORDS
 =====
+- staunch
+- remiss
+- meritocracy
+- elicit
+- behove
+- antiquated
 - burgeon
 - argumentum ad hominem
 - hegemony
 - deluge
 - Enigmatic
 - accoutrement
-- parlance
-- percepelous
-- exsorbant
-- assanine
-- hanus
-- tumultuous
-- congruent
-- stoicism 
-- tumultuous
-- atrophy
-- subterfuge
-- Inebriated
-- coitus
-- charcuterie
 
 
 CREDITS
