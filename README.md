@@ -14,16 +14,7 @@ WORDS
 - staunch
 - remiss
 - meritocracy
-- elicit
-- behove
-- antiquated
-- burgeon
 - argumentum ad hominem
-- hegemony
-- deluge
-- Enigmatic
-- accoutrement
-
 
 CREDITS
 =======
