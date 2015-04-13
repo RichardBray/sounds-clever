@@ -11,10 +11,14 @@ https://sounds-clever-richardbray.c9.io/
 
 WORDS
 =====
-- staunch
-- remiss
-- meritocracy
-- argumentum ad hominem
+
+
+MENU
+=====
+- about & credits
+- word list
+- android
+- changelog
 
 CREDITS
 =======
