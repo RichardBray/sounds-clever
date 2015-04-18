@@ -195,7 +195,7 @@ body{
 [role=banner]{
     background: #23476a;
     .container{
-        padding: 1.2em 0 .6em;
+        padding: 1.2em .5em .6em;
     }
 }
 
@@ -236,4 +236,16 @@ body{
     height: 40px;
     padding: 0 0 0 10px;
     line-height: 40px;
+    color: $gray;
+}
+
+.post-list a {
+    &:hover{
+       color: rgb(200, 200, 200);
+       text-decoration:none;
+    }
+    
+    &:visited{
+        color: $yellow;
+    }
 }

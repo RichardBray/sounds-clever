@@ -24,6 +24,7 @@
 				<div class="jc-fe">
 					<div id="admin_text" class="cur-p"><img src="/img/menu.svg" class="menu-icon"></img></div>
 					<div id="menu">
+						<a href="/">Home</a>
 						<a href="/about">About</a>
 						<a href="/list">Word List</a>
 					</div>
@@ -88,7 +89,10 @@
 		$( "#admin_text" ).on( "click", function() {
 			$( "#menu" ).fadeToggle( "fast" );
 		});
-
+		
+		$( "#random_posts" ).on( "click", function() {
+			$( "#menu" ).fadeOut( "fast" );
+		});		
 
 	</script>		
 	
