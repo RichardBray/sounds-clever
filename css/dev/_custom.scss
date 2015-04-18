@@ -167,6 +167,15 @@ $pr: pr !default;
     }
 }
 
+.refresh-icon img{
+    opacity: 1;
+    @extend .trans-3;
+    
+    &:hover{
+        opacity: .5;
+    }
+}
+
 
 //======================
 // 2. CUSTOM CSS
@@ -183,6 +192,18 @@ body{
     flex-direction: column;    
 }
 
+[role=banner]{
+    background: #23476a;
+    .container{
+        padding: 1.2em 0 .6em;
+    }
+}
+
+.logo-font:hover{
+    @extend .c-white;
+    @extend .td-n;
+}
+
 #random_posts{
     flex: 1;
 }
@@ -195,4 +216,24 @@ body{
     li{
         list-style:none;
     }
+}
+
+.menu-icon{
+    width: 30px;
+}
+
+#menu { 
+    display: none; 
+    position: absolute; 
+    margin: .5em 0 0 -7em;
+}
+
+#menu a
+{
+    display: block;
+    background: $white;
+    width: 120px;
+    height: 40px;
+    padding: 0 0 0 10px;
+    line-height: 40px;
 }
