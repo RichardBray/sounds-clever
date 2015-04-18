@@ -12,7 +12,26 @@
 	    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 		<link rel="shortcut icon" href="ico/favicon.png">
 
-			    	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	</head>
+	<body>
+
+	<header role="banner" class="container mt-2">
+		<div class="ta-c">
+			<img src="/img/sc-logo.svg" class="mt-1 mb-1" alt="Sound Clever Logo" style="width:100px;"></img>
+		</div>
+	</header>
+
+	{{ content }}
+
+	<footer role="contentinfo">
+
+	</footer>
+
+	
+	</body>
+	
+	
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="/js/custom.js"></script>
 
 	<script>
@@ -45,7 +64,7 @@
 	                var postExample2 = posts[randomIndex].example2;
 
 	                if (counter == (numberOfPosts - 1)) {
-	                    divRandomPosts.append('<h2>' + postTitle + '</h2>' + '<h4>' + postDefinition + '</h4>' + '<p> <em>' + postSynonyms + '</em> </p>' + '<ul> <li>' + postExample1 + '</li><li>' + postExample2 + '</li></ul>');
+	                    divRandomPosts.append('<h1 class="fz-5 mt-0_5 mb-0_5">' + postTitle + '</h1>' + '<h3 class="mb-1">' + postDefinition + '</h3>' + '<p> <em class="fz-1_2">' + postSynonyms + '</em> </p>' + '<ul class="sentences"> <li>' + postExample1 + '</li><li>' + postExample2 + '</li></ul>');
 	                }
 	                else {
 	                    divRandomPosts.append('<p><a href="' + postHREF + '">' + postTitle + '</a></p><hr />');
@@ -59,21 +78,6 @@
 	    });
 
 
-	</script>	
-
-	</head>
-	<body>
-
-	<header role="banner">
-
-	</header>
-
-	{{ content }}
-
-	<footer role="contentinfo">
-
-	</footer>
-
+	</script>		
 	
-	</body>
 </html>

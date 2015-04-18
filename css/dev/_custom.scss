@@ -1,6 +1,198 @@
 
-body{
-	background-color: $blue;
-	color: $white;
 
+//======================
+// 1. CSS BRICKS
+//======================
+
+// colours v1.5
+
+.c-white {color: #fff;}
+.c-grey {color: #838383;}
+.c-black {color: #000;}
+
+.c-red {color: #D42C2C;}
+.c-orange {color: #FF6600;}
+.c-yellow {color: #FFCC00;}
+.c-green {color: #33CC33;}
+.c-blue {color: #0066FF;}
+.c-purple {color: #9966FF;}
+.c-pink {color: #FF33CC;}
+.c-brown {color: #663300;}
+
+
+// layout
+
+.b-n{ border:none; }
+
+.dis-b{display:block;}
+.dis-f{display:flex;}
+.dis-n{display:none;}
+
+.jc-sb{justify-content:space-between;}
+.jc-sa{justify-content:space-around;}
+.jc-fe{justify-content:flex-end;}
+.jc-fs{justify-content:flex-start;}
+
+.fl-w{flex-wrap: wrap;}
+.fl-nw{flex-wrap: nowrap;}
+
+.w-full { width: 100%;}
+.w-half { width: 50%;}
+.w-third { width: 33.333333%;}
+.w-quarter { width: 25%;}
+
+.w-20{ width: 20%; }
+.w-15{ width: 15%; }
+.w-10{ width: 10%; }
+.w-5{ width: 5%; }
+
+.m-0 {margin:0;}
+.mt-0_5 {margin-top: 0.5em;}
+.mb-0_5 {margin-bottom: 0.5em;}
+
+.pos-r{position: relative;}
+.pos-f{position: fixed;}
+.pos-a{position: absolute;}
+
+$mb: mb !default;
+$mt: mt !default;
+$ml: ml !default;
+$mr: ml !default;
+$op: op !default;
+
+@for $i from 0 through 10 {
+	.#{$mb}-#{$i} {margin-bottom: 0em + $i;}
+	.#{$mt}-#{$i} {margin-top: 0em + $i;}
+	.#{$ml}-#{$i} {margin-left: 0em + $i;}
+	.#{$mr}-#{$i} {margin-right: 0em + $i;}
+	.#{$op}-#{$i} {opacity: $i / 10;}
+}
+
+.mb-0_5{margin-bottom: 0.5em;}
+.mb-1_5{margin-bottom: 1.5em;}
+
+.mt-0_5{margin-top: 0.5em;}
+.mt-1_5{margin-top: 1.5em;}
+
+.mr-0_5 { margin-right: 0.5em; }
+.ml-0_5 { margin-left: 0.5em; }
+
+//you don't really need this if you're using flexbox
+
+.fl-r{ float: right; }
+.fl-l{ float: left; }
+
+.cl-r {clear: right;}
+.cl-l {clear: left;}
+.cl-b {clear: both;}
+
+
+// font/text
+
+.fw-b{font-weight: bold;}
+.fw-n{font-weight: normal;}
+
+.fz-0_5 {font-size: 0.5em;}
+.fz-1_5 {font-size: 1.5em;}
+
+.ta-r {text-align: right; }
+.ta-l {text-align: left; }
+.ta-c {text-align: center; }
+
+.tt-u{text-transform: uppercase;}
+
+.td-n{text-decoration:none;}
+.td-u{text-decoration:underline;}
+
+$fz: fz !default;
+$p: p !default;
+$pl: pl !default;
+$pr: pr !default;
+
+@for $i from 0 through 5 {
+	.#{$fz}-#{$i} {font-size: 0em + $i;}
+	.#{$p}-#{$i} {padding: 0em + $i;}
+	.#{$pl}-#{$i} {padding-left: 0em + $i;}
+	.#{$pr}-#{$i} {padding-right: 0em + $i;}
+}
+
+.fz-sml {font-size: 0.85em;}
+.fs-i   { font-style: italic; }
+
+.fz-1_2 { font-size:1.2em; }
+.fz-1_5 { font-size:1.5em; }
+
+
+// transitions
+
+.trans-2 {transition: 0.2s;}
+.trans-3 {transition: 0.3s;}
+
+
+//cursor
+
+.cur-p{cursor: pointer;}
+
+
+
+//extra
+
+.rounded {border-radius:20em;}
+
+
+//experimental media queries, might move it from here later
+
+.no-full{
+    flex-wrap: wrap;
+    @media (min-width: 700px){ flex-wrap: nowrap; }
+}
+
+.half-full{
+    flex-wrap: wrap;
+    .w-half{ width: 100%; }
+
+    @media (min-width: 700px){
+        flex-wrap: nowrap;
+        .w-half{ width: 50%; }
+    }
+}
+
+.third-full{
+    flex-wrap: wrap;
+    .w-third{ width: 100%; }
+
+    @media (min-width: 700px){
+        flex-wrap: nowrap;
+        .w-third{ width: 33.333333%; }
+    }
+}
+
+
+//======================
+// 2. CUSTOM CSS
+//======================
+
+body{
+	background-color: $blueDuller;
+	color: $white;
+}
+
+[role=main]{
+    display: flex;
+    min-height: 60vh;
+    flex-direction: column;    
+}
+
+#random_posts{
+    flex: 1;
+}
+
+.sentences{
+    padding:0;
+    line-height: 2em;
+    margin-top: 1.2em;
+      
+    li{
+        list-style:none;
+    }
 }
