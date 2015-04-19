@@ -13,19 +13,3 @@ WORDS
 =====
 -libation
 
-MENU
-=====
-- about & credits
-- word list
-- android
-- changelog
-
-CREDITS
-=======
-
-http://www.yourdictionary.com/
-http://wordsinasentence.com/
-http://www.thesaurus.com/
-http://www.wordhippo.com/
-http://www.merriam-webster.com/
-http://womanontheedgeofreality.com/
