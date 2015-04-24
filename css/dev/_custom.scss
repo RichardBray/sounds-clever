@@ -196,7 +196,13 @@ body{
     background: #23476a;
     .container{
         padding: 1.2em .5em .6em;
+        max-width: 1024px;
+        margin: 0 auto;
     }
+}
+
+.logo-font{
+    @extend .td-n;    
 }
 
 .logo-font:hover{
@@ -246,6 +252,7 @@ body{
     padding: 0 0 0 15px;
     line-height: 40px;
     color: $gray;
+    @extend .td-n;
 }
 
 .post-list a {
@@ -257,4 +264,8 @@ body{
     &:visited{
         color: $yellow;
     }
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
 }
