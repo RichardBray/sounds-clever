@@ -11,5 +11,12 @@ https://sounds-clever-richardbray.c9.io/
 
 WORDS
 =====
--libation
+- libation
+- incomprehensible
+- subservient
+- indignant
+- inconclusive
+- facsimile
+- notwithstanding
+- inscrutable
 

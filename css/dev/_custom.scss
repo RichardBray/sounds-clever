@@ -10,14 +10,10 @@
 .c-grey {color: #838383;}
 .c-black {color: #000;}
 
-.c-red {color: #D42C2C;}
-.c-orange {color: #FF6600;}
 .c-yellow {color: #FFCC00;}
-.c-green {color: #33CC33;}
+
 .c-blue {color: #0066FF;}
-.c-purple {color: #9966FF;}
-.c-pink {color: #FF33CC;}
-.c-brown {color: #663300;}
+
 
 
 // layout
@@ -134,12 +130,6 @@ $pr: pr !default;
 .cur-p{cursor: pointer;}
 
 
-
-//extra
-
-.rounded {border-radius:20em;}
-
-
 //experimental media queries, might move it from here later
 
 .no-full{
@@ -176,6 +166,16 @@ $pr: pr !default;
     }
 }
 
+.container a{
+    @extend .td-n;
+    &:visited{
+        color: $white;
+    }
+    
+    &:hover{
+        text-decoration: underline;
+    }
+}
 
 //======================
 // 2. CUSTOM CSS
@@ -201,6 +201,18 @@ body{
     }
 }
 
+.container{
+  margin: 0 auto;
+  max-width: 960px;
+  padding:0 1em;
+  @media (min-width:540px){
+      padding:0;
+  }
+}
+
+.logo-font:hover{
+    @extend .td-n;
+}
 .logo-font{
     @extend .td-n;    
 }
@@ -212,6 +224,7 @@ body{
 
 #random_posts{
     flex: 1;
+    
     h1{
         font-size:3em;
         @media (min-width:600px){ font-size: 5em; }
@@ -268,4 +281,20 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-weight: 500;
+}
+
+#twitter-widget-0{
+   width: 136px !important;
+  background: white;
+  padding: .5em;   
+}
+
+.version-no{
+  font-size: 0.7em;
+  margin-left: .8em;
+  letter-spacing: 0.1em;    
+}
+
+.changelog h2{
+    @extend .m-0;
 }
