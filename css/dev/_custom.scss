@@ -181,6 +181,9 @@ $pr: pr !default;
 // 2. CUSTOM CSS
 //======================
 
+a{
+    color: $white;
+}
 body{
 	background-color: $blueDuller;
 	color: $white;
@@ -222,11 +225,11 @@ body{
     @extend .td-n;
 }
 
-#random_posts{
+#random_posts, .post{
     flex: 1;
     
     h1{
-        font-size:3em;
+        font-size:2.5em;
         @media (min-width:600px){ font-size: 5em; }
     }
     
@@ -251,6 +254,7 @@ body{
 }
 
 #menu { 
+    right: 15px;
     display: none; 
     position: absolute; 
     margin: .5em 0 0 -5.5em;
@@ -297,4 +301,11 @@ h1,h2,h3,h4,h5,h6{
 
 .changelog h2{
     @extend .m-0;
+}
+
+.post-list{
+    font-size:10px;
+    @media (min-width:450px) {
+        font-size:16px;
+    }
 }
