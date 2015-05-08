@@ -8,15 +8,3 @@ jekyll serve --host $IP --port $PORT --baseurl ''
 
 
 https://sounds-clever-richardbray.c9.io/
-
-WORDS
-=====
-- libation
-- incomprehensible
-- subservient
-- indignant
-- inconclusive
-- facsimile
-- notwithstanding
-- inscrutable
-
