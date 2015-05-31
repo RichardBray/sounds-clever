@@ -19,3 +19,13 @@ New Words
 - inscrutable
 - balustrade
 - panoply
+
+##1.2 31st May 2015
+
+New Words
+- Affable
+- Erroneous
+- Copious
+- Auspicious
+- Etemology
+- Surreptitious
