@@ -5,10 +5,11 @@ title: Homepage
 	<div class="container" role="main">
 
 		<div class="mt-3 mb-4 post-list ta-c">
+			<h3>Number of words: <strong>{{ site.posts | size }}</strong></h3>
 			{% for post in site.posts %}
 			<section>
 				<a href="http://richbray.me/clever/{{ post.url }}" class="c-white">
-					<span class="fz-1_5 fw-b" style="margin-right: 10px;">{{ post.title }}</span> 
+					<span class="fz-1_5 fw-b" style="margin-right: 10px;">{{ post.title }}</span>
 					<em>{{ post.synonyms }}</em>
 				</a>
 			</section>

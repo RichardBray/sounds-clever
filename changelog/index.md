@@ -9,7 +9,8 @@ Launched Sounds Clever, whoop!
 
 ##v1.1 8th May 2015
 
-New Words
+Words Added:
+
 - incomprehensible
 - inconclusive
 - libation
@@ -20,12 +21,36 @@ New Words
 - balustrade
 - panoply
 
-##1.2 31st May 2015
+##v1.2 31st May 2015
 
-New Words
+Words Added:
+
 - Affable
 - Erroneous
 - Copious
 - Auspicious
 - Etemology
 - Surreptitious
+
+#v1.4 21st July 2015
+
+Words Added:
+
+- Pernicious
+- Repudiation
+- Efficacy
+- Vicarious
+- Stratagem
+- Modus operandi
+- Dogmatic
+- Antipathy
+- Repudiate
+- Abashed
+- Fervour
+- Cadence
+- Jettison
+- Polytheistic
+- Jubilant
+- Detritus
+- Ostracism
+- Chicanery
