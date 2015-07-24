@@ -32,7 +32,7 @@ Words Added:
 - Etemology
 - Surreptitious
 
-#v1.4 21st July 2015
+#v1.5 21st July 2015
 
 Words Added:
 
@@ -49,8 +49,9 @@ Words Added:
 - Fervour
 - Cadence
 - Jettison
-- Polytheistic
 - Jubilant
 - Detritus
-- Ostracism
 - Chicanery
+- Magnum Opus
+- Vociferous
+- Attrition
