@@ -32,7 +32,7 @@ Words Added:
 - Etemology
 - Surreptitious
 
-#v1.5 21st July 2015
+##v1.5 24th July 2015
 
 Words Added:
 
