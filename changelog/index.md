@@ -55,3 +55,9 @@ Words Added:
 - Magnum Opus
 - Vociferous
 - Attrition
+
+##v1.8 31st August 2015
+
+Words Added:
+
+- Contretemps
