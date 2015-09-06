@@ -160,7 +160,7 @@ $pr: pr !default;
 .refresh-icon img{
     opacity: 1;
     @extend .trans-3;
-    
+
     &:hover{
         opacity: .5;
     }
@@ -171,7 +171,7 @@ $pr: pr !default;
     &:visited{
         color: $white;
     }
-    
+
     &:hover{
         text-decoration: underline;
     }
@@ -192,7 +192,7 @@ body{
 [role=main]{
     display: flex;
     min-height: 60vh;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 [role=banner]{
@@ -217,7 +217,7 @@ body{
     @extend .td-n;
 }
 .logo-font{
-    @extend .td-n;    
+    @extend .td-n;
 }
 
 .logo-font:hover{
@@ -227,12 +227,12 @@ body{
 
 #random_posts, .post{
     flex: 1;
-    
+
     h1{
         font-size:2.5em;
         @media (min-width:600px){ font-size: 5em; }
     }
-    
+
     h3{
         font-size: 1.3em;
         @media (min-width:600px){ font-size: 1.7em; }
@@ -242,7 +242,7 @@ body{
 .sentences{
     padding:0;
     margin-top: 1.2em;
-      
+
     li{
         list-style:none;
         margin-bottom:1em;
@@ -253,17 +253,17 @@ body{
     width: 30px;
 }
 
-#menu { 
+#menu {
     right: 15px;
-    display: none; 
-    position: absolute; 
+    display: none;
+    position: absolute;
+		background: $white;
     margin: .5em 0 0 -5.5em;
 }
 
 #menu a
 {
     display: block;
-    background: $white;
     width: 140px;
     height: 42px;
     padding: 0 0 0 15px;
@@ -277,7 +277,7 @@ body{
        color: rgb(200, 200, 200);
        text-decoration:none;
     }
-    
+
     &:visited{
         color: $yellow;
     }
@@ -290,13 +290,13 @@ h1,h2,h3,h4,h5,h6{
 #twitter-widget-0{
    width: 136px !important;
   background: white;
-  padding: .5em;   
+  padding: .5em;
 }
 
 .version-no{
   font-size: 0.7em;
   margin-left: .8em;
-  letter-spacing: 0.1em;    
+  letter-spacing: 0.1em;
 }
 
 .changelog h2{
@@ -312,11 +312,13 @@ h1,h2,h3,h4,h5,h6{
 
 .post{
     padding:1em;
-    
+
     @media (min-width:450px) {
         padding:0;
     }
-    
-    
-    
+}
+
+.twitter-share-button{
+	@extend .mt-1;
+	@extend .mb-0_5;
 }

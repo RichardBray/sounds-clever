@@ -61,3 +61,18 @@ Words Added:
 Words Added:
 
 - Contretemps
+- Malleable
+- Precocious
+- Substratum
+- Pertinent
+- Platitude
+- Ancillary
+- Belligerent
+- Despondent
+- Incongruous
+- Debilitate
+- Erroneous
+- Abscond
+- Impetus
+- Elucidate
+- Contretemps
